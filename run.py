@@ -13,6 +13,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, roc_auc_score, roc_curve, classification_report
 from sklearn.preprocessing import LabelEncoder
+
+from sklearn import svm  #for Support Vector Machine (SVM) Algorithm
+from sklearn import metrics #for checking the model accuracy
+from sklearn.tree import DecisionTreeClassifier #for using Decision Tree Algoithm
+
 #Energy Usage
 import energyusage
 
@@ -83,6 +88,8 @@ def train_test_split(dataset, train_frac= 0.7, seed=1):
 
 (train_features, train_labels), (test_features, test_labels) = train_test_split(dataset, train_frac=0.7)
 
+
+#LogisticRegression
 lg = LogisticRegression()
 lg.fit(train_features, train_labels)
 lgpredict = lg.predict(test_features)
@@ -93,3 +100,10 @@ pred_lg = lg.predict(test_features)
 log_reg_predict_proba = lg.predict_proba(test_features)[:, 1]
 
 print('\nLogistic Regression Accuracy: {:.2f}%'.format(accuracy_score(test_labels, lgpredict) * 100))
+
+#SupportVectorMachines
+model = svm.SVC()
+model.fit(train_features, train_labels)
+prediction=model.predict(test_features)
+score = model.score(test_features, test_labels)
+print('SVM Accuracy: {:.2f}%'.format(accuracy_score(test_labels, prediction) * 100))
