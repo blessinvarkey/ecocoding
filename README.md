@@ -6,12 +6,12 @@ The IRIS data set contains 3 classes of 50 instances each, where each class refe
 The details on the dataset can be found [here](https://archive.ics.uci.edu/ml/datasets/iris)
 
 ### Dataset
-<img src="Figure_0.png" alt="drawing" width="500"/>
+<img src="images/Figure_0.png" alt="drawing" width="500"/>
 
-|![Screenshot](/Figure_1.png)|![Screenshot](/Figure_2.png)|
+|![Screenshot](images/Figure_1.png)|![Screenshot](images/Figure_2.png)|
 | ------------- | ------------- |
 
-|![Screenshot](/Figure_3.png)|
+|![Screenshot](images/Figure_3.png)|
 | ------------- | 
 
 
