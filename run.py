@@ -20,7 +20,7 @@ dataset = pd.read_csv("Iris.csv")
 #print(dataset.head(5))
 #print(dataset.info())
 dataset.drop('Id', axis=1, inplace=True)
-print(dataset.head(5))
+print(dataset.head(15))
 
 
 
