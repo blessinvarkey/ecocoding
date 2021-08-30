@@ -17,7 +17,9 @@ from sklearn import metrics #for checking the model accuracy
 from sklearn.tree import DecisionTreeClassifier #for using Decision Tree Algoithm
 
 #Energy Usage
-import energyusage
+from codecarbon import EmissionsTracker
+
+tracker = EmissionsTracker()
 
 # split into train/test
 def train_test_split(dataset, train_frac= 0.7, seed=1):
@@ -93,7 +95,9 @@ def main():
     score = model.score(test_features, test_labels)
     print('SVM Accuracy: {:.2f}%'.format(accuracy_score(test_labels, prediction) * 100))
 
-
 if __name__ == "__main__":
-    #main()
-    energyusage.evaluate(main,pdf=True)
+    tracker.start()
+    main()
+    emi: float=tracker.stop()
+    print(f"overall emmisions:{emi}kg")
+    # energyusage.evaluate(main,pdf=True)
