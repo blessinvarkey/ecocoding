@@ -5,11 +5,11 @@ The IRIS data set contains 3 classes of 50 instances each, where each class refe
 
 The details on the dataset can be found [here](https://archive.ics.uci.edu/ml/datasets/iris)
 
-# Result
+## Result
 <img src="images/Figure_0.png" alt="drawing" width="500"/>
 
 
-# Installation
+## Installation
 
 Download the project or the [run.py](https://github.com/blessinvarkey/IRIS-Dataset/blob/main/run.py) file along with a code editor.
 
