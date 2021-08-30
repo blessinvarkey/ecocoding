@@ -22,7 +22,7 @@ from codecarbon import EmissionsTracker
 
 tracker = EmissionsTracker()
 
-@track_emissions(project_name="iris")
+# @track_emissions(project_name="iris")
 # split into train/test
 
 def train_test_split(dataset, train_frac= 0.7, seed=1):
