@@ -9,3 +9,4 @@ timestamp,experiment_id,project_name,duration,emissions,energy_consumed,country_
 2021-08-30T12:35:51,1a2f005f-80f9-41c0-af49-916b05577662,iris,4.590723991394043,2.0072288461780173e-09,2.407330404219524e-09,India,IND,national capital territory of delhi,N,,
 2021-08-30T12:37:16,c21caf82-34c3-4ab0-844d-2053d010ec9c,iris,3.431018829345703,7.023703392234898e-10,8.423740401370908e-10,India,IND,national capital territory of delhi,N,,
 
+2021-08-30T16:46:35,74db8b84-50ce-4822-a1cd-d65bdf3b1099,codecarbon,3.8178460597991943,2.18745410150636e-06,2.6234800164504694e-06,India,IND,kerala,N,,
