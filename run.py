@@ -18,9 +18,9 @@ from sklearn import metrics #for checking the model accuracy
 
 
 #Energy Usage
+from codecarbon import EmissionsTracker
 
-from codecarbon import track_emissions
-
+tracker = EmissionsTracker()
 
 @track_emissions(project_name="iris")
 # split into train/test
@@ -99,4 +99,8 @@ def main():
     print('SVM Accuracy: {:.2f}%'.format(accuracy_score(test_labels, prediction) * 100))
 
 if __name__ == "__main__":
+    tracker.start()
     main()
+    emi: float=tracker.stop()
+    print(f"overall emmisions:{emi}kg")
+    # energyusage.evaluate(main,pdf=True)
