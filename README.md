@@ -17,7 +17,7 @@ The projects in the repo uses code carbon taking into account the computing infr
 
 
 # About Code Carbon
-CodeCarbon is a Python package for tracking the carbon emissions produced by various kinds of computer programs, from straightforward algorithms to deep neural networks. Visit their [repo](https://github.com/mlco2/codecarbon) to learn more!
+CodeCarbon is a Python package for tracking the carbon emissions produced by various kinds of computer programs, from straightforward algorithms to deep neural networks. Visit their [repo](https://github.com/mlco2/codecarbon) to learn more.
 
 
 # Installation
