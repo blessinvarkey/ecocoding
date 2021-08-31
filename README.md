@@ -2,8 +2,8 @@
 
 | S. No. | Contents | Tags |
 | ------------- | ------------- |------------- |  
-| 1. | [IRIS-Dataset](https://github.com/blessinvarkey/Estimation-of-Energy-Consumption-In-Machine-Learning/blob/main/README.md#iris-dataset) | Logistic Regression, Support Vector Machines | 
-| 2. | [ASD-Screening with AQ-10 Questionaire]() | Logistic Regression | 
+| 1. | [IRIS-Dataset](https://github.com/blessinvarkey/Estimation-of-Energy-Consumption-In-Machine-Learning/blob/main/README.md#1-iris-dataset) | Logistic Regression, Support Vector Machines | 
+| 2. | [ASD-Screening with AQ-10 Questionaire](https://github.com/blessinvarkey/Estimation-of-Energy-Consumption-In-Machine-Learning/blob/main/README.md#2-autism-spectrum-quotient-aq-10--q-chat) | Logistic Regression | 
 
 
 ## 1. IRIS-Dataset
