@@ -72,7 +72,7 @@ The details on the dataset can be found [here](https://archive.ics.uci.edu/ml/da
 
 | Dataset | Repository | Instance | Algorithm(s) used | Accuracy| Emissions Recorded* (average) |
 | ------------- |------------- | ------------- | ------------- | ------------- | ------------- | 
-| IRIS Dataset  | UCI Machine Learning Repository | 50 | Logistic Regression, Support Vector Machines | 95.56%| 3.2894392230672367e-07kg |
+| IRIS Dataset  | UCI Machine Learning Repository | 50 | Logistic Regression, Support Vector Machines | 95.56% (LR), 97.78 (SVM)| 3.2894392230672367e-07kg |
 
 
 
