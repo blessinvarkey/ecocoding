@@ -4,14 +4,12 @@ The project estimates and measures carbon emissions from various Machine Learnin
 
 <br/>
 
-- [About Green Coding](#about-Green-Coding)
+- [About](#about-Green-Coding)
 - [Installation](https://github.com/blessinvarkey/Energy-Consumption-In-Machine-Learning/blob/main/README.md#installation)
 - [IRIS-Dataset](https://github.com/blessinvarkey/Estimation-of-Energy-Consumption-In-Machine-Learning/blob/main/README.md#1-iris-dataset)
 - [ASD-Screening](https://github.com/blessinvarkey/Estimation-of-Energy-Consumption-In-Machine-Learning/blob/main/README.md#2-autism-spectrum-quotient-aq-10--q-chat)
 
-# About Green Coding 
-
-Green coding is a term recently popularized for its environmental intentions and refers to programming code that is written to produce algorithms that have minimal energy consumption.
+# About 
 
 The projects in the repo uses code carbon taking into account the computing infrastructure, location, usage and running time
 
