@@ -1,9 +1,26 @@
-# Datasets 
+# Energy Consumption in Machine Learning Algorithms 
 
-| S. No. | Contents | Algorithm(s) used | Overall Emissions| 
-| ------------- | ------------- |------------- | ------------- |   
-| 1. | [IRIS-Dataset](https://github.com/blessinvarkey/Estimation-of-Energy-Consumption-In-Machine-Learning/blob/main/README.md#1-iris-dataset) | Logistic Regression, Support Vector Machines | |
-| 2. | [ASD-Screening with AQ-10 Questionaire](https://github.com/blessinvarkey/Estimation-of-Energy-Consumption-In-Machine-Learning/blob/main/README.md#2-autism-spectrum-quotient-aq-10--q-chat) | Logistic Regression | |
+Estimation and measuring of carbon emissions from various Machine Learning datasets to quantify and analyze their impact.
+
+<br/>
+
+- [About Green Coding](#about-Green-Coding)
+- [Installation](https://github.com/blessinvarkey/Energy-Consumption-In-Machine-Learning/blob/main/README.md#installation)
+- [IRIS-Dataset](https://github.com/blessinvarkey/Estimation-of-Energy-Consumption-In-Machine-Learning/blob/main/README.md#1-iris-dataset)
+- [ASD-Screening with AQ-10 Questionaire](https://github.com/blessinvarkey/Estimation-of-Energy-Consumption-In-Machine-Learning/blob/main/README.md#2-autism-spectrum-quotient-aq-10--q-chat)
+
+# About Green Coding 
+
+Green coding is a term recently popularized for its environmental intentions and refers to programming code that is written to produce algorithms that have minimal energy consumption.
+
+The projects in the repo uses code carbon taking into account the computing infrastructure, location, usage and running time
+
+While computing currently represents roughly 0.5% of the world’s energy consumption, that percentage is projected to grow beyond 2% in the coming years, which will entail a significant rise in global CO2 emissions if not done properly. Given this increase, it is important to quantify and track the extent and origin of this energy usage, and to minimize the emissions incurred as much as possible.
+
+For this purpose, we created **CodeCarbon**, a Python package for tracking the carbon emissions produced by various kinds of computer programs, from straightforward algorithms to deep neural networks.
+
+, CodeCarbon can provide an estimate of how much CO<sub>2</sub> you produced, and give you some comparisons with common modes of transportation to give you an order of magnitude.
+
 
 # Installation
 
@@ -53,8 +70,10 @@ The IRIS data set contains 3 classes of 50 instances each, where each class refe
 
 The details on the dataset can be found [here](https://archive.ics.uci.edu/ml/datasets/iris)
 
-### Result
-<img src="images/Figure_0.png" alt="drawing" width="300"/>
+| Dataset | Repository | Algorithm(s) used | Emissions Recorded |
+| ------------- |------------- | ------------- | ------------- | 
+| IRIS Dataset  | UCI Machine Learning Repository | Logistic Regression, Support Vector Machines | |
+
 
 ### Sepal Length vs Width & Petal Length vs Width
 |![Screenshot](images/Figure_1.png)|![Screenshot](images/Figure_2.png)|![Screenshot](images/Figure_3.png)|
@@ -64,6 +83,10 @@ The details on the dataset can be found [here](https://archive.ics.uci.edu/ml/da
 
 ## 2. Autism Spectrum Quotient (AQ-10) | Q-CHAT
 The Autism-Spectrum Quotient publisehed by Baron-Cohen, Wheelwright, Skinner, Martin, & Clubley was developed to assess how adults with 'normal' intelligence has the traits associated with autism spectrum conditions. According to Wikia, "the test consists of fifty statements, each of which is in a forced-choice format. Each question allows the subject to indicate "Definitely agree", "Slightly agree", "Slightly disagree" or "Definitely disagree". Approximately half the questions are worded to elicit an "agree" response from normal individuals, and half to elicit a "disagree" response. The subject scores one point for each question which is answered "autistically" either slightly or definitely." The questions cover five different domains associated with the autism spectrum: social skills; communication skills; imagination; attention to detail; and attention switching/tolerance of change.
+
+| Dataset | Repository | Algorithm(s) used |  Emissions Recorded |
+| ------------- |------------- | ------------- | ------------- | 
+| ASD Screening  | UCI Machine Learning Repository | Logistic Regression | | 
 
 According to the dataset, 'Yes' indicates that the individual is on the Autism Spectum and 'No' is indicated when the final score is less than or equal to 7. You can refer the questions from [here](https://www.nice.org.uk/guidance/cg142/resources/autism-spectrum-quotient-aq10-test-pdf-186582493).
 
