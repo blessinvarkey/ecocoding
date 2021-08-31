@@ -84,7 +84,7 @@ The Autism-Spectrum Quotient publisehed by Baron-Cohen, Wheelwright, Skinner, Ma
 
 | Dataset | Repository | Algorithm(s) used |  Emissions Recorded |
 | ------------- |------------- | ------------- | ------------- | 
-| ASD Screening  | UCI Machine Learning Repository | Logistic Regression | | 
+| ASD Screening  | UCI Machine Learning Repository | Logistic Regression | 6.655623459501662e-07kg | 
 
 According to the dataset, 'Yes' indicates that the individual is on the Autism Spectum and 'No' is indicated when the final score is less than or equal to 7. You can refer the questions from [here](https://www.nice.org.uk/guidance/cg142/resources/autism-spectrum-quotient-aq10-test-pdf-186582493).
 
