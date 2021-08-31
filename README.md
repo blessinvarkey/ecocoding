@@ -49,7 +49,7 @@ This project requires **Python** and the following Python libraries installed:
 You can install them using 
 
 ```
-pip install <write the packagename you want to download>
+pip install <packagename>
 ```
 
 To run the code
