@@ -15,11 +15,9 @@ Green coding is a term recently popularized for its environmental intentions and
 
 The projects in the repo uses code carbon taking into account the computing infrastructure, location, usage and running time
 
-While computing currently represents roughly 0.5% of the world’s energy consumption, that percentage is projected to grow beyond 2% in the coming years, which will entail a significant rise in global CO2 emissions if not done properly. Given this increase, it is important to quantify and track the extent and origin of this energy usage, and to minimize the emissions incurred as much as possible.
 
-For this purpose, we created **CodeCarbon**, a Python package for tracking the carbon emissions produced by various kinds of computer programs, from straightforward algorithms to deep neural networks.
-
-, CodeCarbon can provide an estimate of how much CO<sub>2</sub> you produced, and give you some comparisons with common modes of transportation to give you an order of magnitude.
+# About Code Carbon
+CodeCarbon is a Python package for tracking the carbon emissions produced by various kinds of computer programs, from straightforward algorithms to deep neural networks. Visit their [repo](https://github.com/mlco2/codecarbon) to learn more!
 
 
 # Installation
