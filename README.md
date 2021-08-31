@@ -6,12 +6,12 @@
 | 2. | [ASD-Screening with AQ-10 Questionaire]() | Logistic Regression | 
 
 
-## IRIS-Dataset
+## 1. IRIS-Dataset
 The IRIS data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. One class is linearly separable from the other 2; the latter are NOT linearly separable from each other. 
 
 The details on the dataset can be found [here](https://archive.ics.uci.edu/ml/datasets/iris)
 
-## Result
+### Result
 <img src="images/Figure_0.png" alt="drawing" width="500"/>
 
 ### Sepal Length vs Width & Petal Length vs Width
@@ -22,7 +22,7 @@ The details on the dataset can be found [here](https://archive.ics.uci.edu/ml/da
 |![Screenshot](images/Figure_3.png)|
 | ------------- | 
 
-## Autism Spectrum Quotient (AQ-10) | Q-CHAT
+## 2. Autism Spectrum Quotient (AQ-10) | Q-CHAT
 The Autism-Spectrum Quotient publisehed by Baron-Cohen, Wheelwright, Skinner, Martin, & Clubley was developed to assess how adults with 'normal' intelligence has the traits associated with autism spectrum conditions. According to Wikia, "the test consists of fifty statements, each of which is in a forced-choice format. Each question allows the subject to indicate "Definitely agree", "Slightly agree", "Slightly disagree" or "Definitely disagree". Approximately half the questions are worded to elicit an "agree" response from normal individuals, and half to elicit a "disagree" response. The subject scores one point for each question which is answered "autistically" either slightly or definitely." The questions cover five different domains associated with the autism spectrum: social skills; communication skills; imagination; attention to detail; and attention switching/tolerance of change.
 
 According to the dataset, 'Yes' indicates that the individual is on the Autism Spectum and 'No' is indicated when the final score is less than or equal to 7. You can refer the questions from [here](https://www.nice.org.uk/guidance/cg142/resources/autism-spectrum-quotient-aq10-test-pdf-186582493).
@@ -40,13 +40,13 @@ A9 I find it easy to work out what someone is thinking or feeling just by lookin
 A10 I find it difficult to work out people’s intentions
 
 
-## Dataset 
+### Dataset 
 
 The Dataset can be downloaded from the UCI Repository which is publicly available [here](https://archive.ics.uci.edu/ml/datasets/Autism+Screening+Adult). 
 
 
 
-## Installation
+# Installation
 
 Download the project or the [run.py](https://github.com/blessinvarkey/IRIS-Dataset/blob/main/run.py) file along with a code editor.
 
