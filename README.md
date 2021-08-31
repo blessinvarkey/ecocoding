@@ -79,7 +79,7 @@ The details on the dataset can be found [here](https://archive.ics.uci.edu/ml/da
 The Autism-Spectrum Quotient publisehed by Baron-Cohen, Wheelwright, Skinner, Martin, & Clubley was developed to assess how adults with 'normal' intelligence has the traits associated with autism spectrum conditions. According to Wikia, "the test consists of fifty statements, each of which is in a forced-choice format. Each question allows the subject to indicate "Definitely agree", "Slightly agree", "Slightly disagree" or "Definitely disagree". Approximately half the questions are worded to elicit an "agree" response from normal individuals, and half to elicit a "disagree" response. The subject scores one point for each question which is answered "autistically" either slightly or definitely." The questions cover five different domains associated with the autism spectrum: social skills; communication skills; imagination; attention to detail; and attention switching/tolerance of change.
 
 | Dataset | Repository | Instance| Algorithm(s) used |  Accuracy| Emissions Recorded* (average)|
-| ------------- |------------- | ------------- | ------------- | ------------- | 
+| ------------- |------------- | ------------- | ------------- | ------------- | ------------- | 
 | ASD Screening  | UCI Machine Learning Repository | 761 | Logistic Regression | 99.53% | 8.411635420125923e-07kg | 
 
 According to the dataset, 'Yes' indicates that the individual is on the Autism Spectum and 'No' is indicated when the final score is less than or equal to 7. You can refer the questions from [here](https://www.nice.org.uk/guidance/cg142/resources/autism-spectrum-quotient-aq10-test-pdf-186582493).
