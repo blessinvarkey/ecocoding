@@ -96,13 +96,17 @@ A8 I like to collect information about categories of things (e.g. types of car, 
 A9 I find it easy to work out what someone is thinking or feeling just by looking at their face. 
 A10 I find it difficult to work out people’s intentions
 
+### Data Visualization
+|![Screenshot](images/asd_dataset/Figure_1.png)|![Screenshot](images/asd_dataset/Figure_2.png)|![Screenshot](images/asd_dataset/Figure_3.png)|![Screenshot](images/asd_dataset/Figure_4.png)|
+| ------------- | ------------- |------------- | ------------- | 
+|![Screenshot](images/asd_dataset/Figure_5.png)|![Screenshot](images/asd_dataset/Figure_6.png)|![Screenshot](images/asd_dataset/Figure_7.png)|![Screenshot](images/asd_dataset/Figure_9.png)|
+| ------------- | ------------- |------------- | ------------- |
+
+|![Screenshot](images/asd_dataset/Figure_10.png)|![Screenshot](images/asd_dataset/Figure_11.png)|
+| ------------- |------------- | 
 
 ### Dataset 
-
 The Dataset can be downloaded from the UCI Repository which is publicly available [here](https://archive.ics.uci.edu/ml/datasets/Autism+Screening+Adult). 
-
-
-
 
 
 [↑ Back to top](https://github.com/blessinvarkey/Estimation-of-Energy-Consumption-In-Machine-Learning/blob/main/README.md#datasets)
