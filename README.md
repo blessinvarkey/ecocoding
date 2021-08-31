@@ -74,7 +74,7 @@ The details on the dataset can be found [here](https://archive.ics.uci.edu/ml/da
 | IRIS Dataset  | UCI Machine Learning Repository | Logistic Regression, Support Vector Machines | |
 
 
-### Sepal Length vs Width & Petal Length vs Width
+### Data Visualization: Sepal Length vs Width & Petal Length vs Width
 |![Screenshot](images/Figure_1.png)|![Screenshot](images/Figure_2.png)|![Screenshot](images/Figure_3.png)|
 | ------------- | ------------- |------------- |
 
