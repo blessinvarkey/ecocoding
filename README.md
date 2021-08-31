@@ -1,6 +1,6 @@
 # Energy Consumption in Machine Learning Algorithms 
 
-Estimation and measuring of carbon emissions from various Machine Learning datasets to quantify and analyze their impact.
+The project estimates and measures carbon emissions from various Machine Learning datasets to quantify and analyze their impact.
 
 <br/>
 
