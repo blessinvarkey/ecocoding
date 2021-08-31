@@ -87,7 +87,6 @@ The Dataset can be downloaded from the UCI Repository which is publicly availabl
 |![Screenshot](images/asd_dataset/Figure_1.png)|![Screenshot](images/asd_dataset/Figure_2.png)|![Screenshot](images/asd_dataset/Figure_3.png)|![Screenshot](images/asd_dataset/Figure_4.png)|
 | ------------- | ------------- |------------- | ------------- | 
 |![Screenshot](images/asd_dataset/Figure_5.png)|![Screenshot](images/asd_dataset/Figure_6.png)|![Screenshot](images/asd_dataset/Figure_7.png)|![Screenshot](images/asd_dataset/Figure_9.png)|
-| ------------- | ------------- |------------- | ------------- |
 
 |![Screenshot](images/asd_dataset/Figure_10.png)|![Screenshot](images/asd_dataset/Figure_11.png)|
 | ------------- |------------- | 
