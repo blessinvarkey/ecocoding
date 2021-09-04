@@ -13,9 +13,11 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, roc_auc_score, roc_curve, classification_report
 from sklearn.preprocessing import LabelEncoder
 
-from sklearn import svm  #for Support Vector Machine (SVM) Algorithm
-from sklearn import metrics #for checking the model accuracy
+#Energy Usage
+#from codecarbon import EmissionsTracker
 
+#tracker = EmissionsTracker()
+#@track_emissions(project_name="asd screening")
 
 # split into train/test
 def train_test_split(df, train_frac= 0.7, seed=1):
@@ -37,12 +39,6 @@ def train_test_split(df, train_frac= 0.7, seed=1):
     test_labels = df_matrix[train_size:, -1]
 
     return (train_features, train_labels), (test_features, test_labels)
-
-#Energy Usage
-from codecarbon import EmissionsTracker
-
-tracker = EmissionsTracker()
-#@track_emissions(project_name="asd screening")
 
 def main():
 
@@ -129,7 +125,7 @@ def main():
 
     fig = plt.figure(figsize=(12,10))
     sns.heatmap(df.corr())
-#    plt.show()
+    plt.show()
 
     le = LabelEncoder()
     df.gender = le.fit_transform(df.gender)
@@ -150,22 +146,11 @@ def main():
     print('\nLogistic Regression Accuracy: {:.2f}%'.format(accuracy_score(test_labels, lgpredict) * 100))
     print('Logistic Regression AUC: {:.2f}%'.format(roc_auc_score(test_labels, lgpredict) * 100))
     print(classification_report(test_labels,pred_lg))
-    #SupportVectorMachines
-
-    model = svm.SVC()
-    model.fit(train_features, train_labels)
-    prediction=model.predict(test_features)
-    score = model.score(test_features, test_labels)
-    print('\nSVM Regression Accuracy: {:.2f}%'.format(accuracy_score(test_labels, prediction) * 100))
-    print('SVM Regression AUC: {:.2f}%'.format(roc_auc_score(test_labels, prediction) * 100))
-    print(classification_report(test_labels,prediction))
-
 
 
 if __name__ == "__main__":
     tracker.start()
     main()
     emi: float=tracker.stop()
-    print(f"overall emmisions:{emi} kg")
-    emi= emi*89875517873681764
-    print(f"overall emmisions:{emi} joules")
+
+    print(f"overall emmisions:{emi}kg")

@@ -1,0 +1,13 @@
+timestamp,experiment_id,project_name,duration,emissions,energy_consumed,country_name,country_iso_code,region,on_cloud,cloud_provider,cloud_region
+2021-09-05T00:08:35,cf1fb6e0-2372-4387-9d6f-878a76b04fad,codecarbon,4.624737977981567,6.741129161637182e-07,8.084840560397574e-07,India,IND,national capital territory of delhi,N,,
+2021-09-05T00:09:01,f5a4e505-6193-4fe5-9265-66eb3bafbf3e,codecarbon,5.6174681186676025,8.066486905344194e-07,9.67438228055015e-07,India,IND,national capital territory of delhi,N,,
+2021-09-05T00:09:42,c345a5de-238c-4d74-a0b3-c2d547a93936,codecarbon,3.8135712146759033,1.3354526112054477e-06,1.6016488007686333e-06,India,IND,national capital territory of delhi,N,,
+2021-09-05T00:09:58,f9462ef7-d3cb-49ba-b164-d86565b74af3,codecarbon,2.676934003829956,9.912451820076472e-07,1.1888303963082305e-06,India,IND,national capital territory of delhi,N,,
+2021-09-05T00:10:08,09128377-9b5f-49b4-9ae5-58153dfaaa30,codecarbon,5.522851943969727,6.578048567071733e-07,7.889253059558726e-07,India,IND,national capital territory of delhi,N,,
+2021-09-05T00:10:21,be7d76a1-2115-4f9f-b903-55251ef32107,codecarbon,3.6848490238189697,1.337746539761072e-06,1.6043999788256729e-06,India,IND,national capital territory of delhi,N,,
+2021-09-05T00:22:46,d826df12-026b-4619-9568-628aeef58510,codecarbon,9.25957703590393,2.5292295738146114e-06,3.033381701288637e-06,India,IND,national capital territory of delhi,N,,
+2021-09-05T00:23:26,1fecb93f-064d-4535-8dbd-b1f0e569b96b,codecarbon,7.564344644546509,1.6159354279987829e-06,1.938040345765315e-06,India,IND,national capital territory of delhi,N,,
+2021-09-05T00:24:00,72618c77-96da-4c69-8e44-6c2d8a72f22a,codecarbon,8.502308130264282,1.644396389571211e-06,1.972174439771133e-06,India,IND,national capital territory of delhi,N,,
+2021-09-05T00:25:23,7797bf7b-63ba-4606-96bc-d25c1c78d203,codecarbon,7.541054964065552,1.629778451616236e-06,1.954642703639993e-06,India,IND,national capital territory of delhi,N,,
+2021-09-05T00:26:06,3dbacdd2-e142-440d-b8f7-21a2f2ff3a78,codecarbon,8.631039142608643,1.71297105943454e-06,2.0544181201744124e-06,India,IND,national capital territory of delhi,N,,
+2021-09-05T00:26:33,a5811dbc-8f31-4404-86bd-5730b39c9d47,codecarbon,6.576951026916504,1.7069007790660136e-06,2.0471378489083254e-06,India,IND,national capital territory of delhi,N,,

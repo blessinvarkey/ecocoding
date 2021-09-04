@@ -1,0 +1,2 @@
+timestamp,experiment_id,project_name,duration,emissions,energy_consumed,country_name,country_iso_code,region,on_cloud,cloud_provider,cloud_region
+2021-09-04T23:39:58,3f72de02-5328-4356-9a8e-c27aad7f977a,codecarbon,4.8744282722473145,2.395008492812252e-07,2.872406289940083e-07,India,IND,national capital territory of delhi,N,,
