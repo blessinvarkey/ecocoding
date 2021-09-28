@@ -39,7 +39,7 @@ pip install codecarbon
 conda install -c codecarbon -c conda-forge codecarbon
 ```
 
-This project requires **Python** and the following Python libraries installed:
+This project requires **Python** and some of the following Python libraries installed:
 
 - [NumPy](http://www.numpy.org/)
 - [Pandas](http://pandas.pydata.org/)
