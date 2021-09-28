@@ -94,6 +94,29 @@ The Dataset can be downloaded from the UCI Repository which is publicly availabl
 | ------------- |------------- | ------------- | ------------- | ------------- | ------------- | 
 | ASD Screening  | UCI Machine Learning Repository | 761 | Logistic Regression | 99.53% | 8.411635420125923e-07kg | 
 
+## 3. Fashion MNIST
+Fashion MNIST is a dataset comprised of 60,000 small square 28×28 pixel grayscale images of items of 10 types of clothing, such as shoes, t-shirts, dresses, and more. The mapping of all 0-9 integers to class labels is listed below.
+
+0: T-shirt/top  
+1: Trouser  
+2: Pullover   
+3: Dress   
+4: Coat   
+5: Sandal   
+6: Shirt   
+7: Sneaker   
+8: Bag   
+9: Ankle boot    
+
+### Data Visualization
+|![Screenshot](images/f1.png)|![Screenshot](images/f2.png)|![Screenshot](images/f3.png)|
+|--|--|--|
+ 
+
+| Dataset | Repository | Instance| Algorithm(s) used |  Accuracy| Emissions Recorded* (average)|
+| ------------- |------------- | ------------- | ------------- | ------------- | ------------- | 
+| Fashion MNIST  | zalandoresearch | training set of 60,000 examples and a test set of 10,000 examples | Adam Optimization | | 52381696453822.83 joules | 
+
 
 
 [↑ Back to top](https://github.com/blessinvarkey/Energy-Consumption-In-Machine-Learning)
