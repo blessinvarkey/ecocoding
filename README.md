@@ -1,4 +1,4 @@
-# Energy Consumption in Machine Learning Algorithms 
+# Energy Consumption in Machine Learning & Deep Learning Models 
 
 The project estimates and measures carbon emissions from various Machine Learning datasets to quantify and analyze their impact.
 
