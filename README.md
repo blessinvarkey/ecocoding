@@ -55,7 +55,7 @@ pip install <packagename>
 
 To run the code
 ```
-python run.py
+python train.py
 ```
 
 
