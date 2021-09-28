@@ -7,6 +7,12 @@ from codecarbon import EmissionsTracker #Energy Usage
 tracker = EmissionsTracker()
 #@track_emissions(project_name="asd screening")
 
+class myCallback(tf.keras.callbacks.Callback):
+    def on_epoch_end(self, epoch, logs={}):
+        if(logs.get('loss')<0.1):
+            print("\n accuracy")
+            self.model.stop_training = True
+
 def main():
     mnist = tf.keras.datasets.fashion_mnist
     (training_images, training_labels), (test_images, test_labels) = mnist.load_data()
@@ -24,15 +30,20 @@ def main():
     training_images = training_images/255.0
     test_images = test_images/255.0
 
+    
+
+    callbacks = myCallback()
+
     model = tf.keras.Sequential([keras.layers.Flatten(), 
     tf.keras.layers.Dense(128, activation=tf.nn.relu),
     tf.keras.layers.Dense(10, activation=tf.nn.softmax)])
 
-    model.compile(optimizer = tf.optimizers.Adam(), loss='sparse_categorical_crossentropy')
-    model.fit(training_images, training_labels, epochs = 100)
-
-    prediction = model.evaluate(test_images, test_labels)
-    print(prediction)
+    model.compile(optimizer = 'adam', loss='sparse_categorical_crossentropy')
+    model.fit(training_images, training_labels, epochs = 130, callbacks = [callbacks])
+    test_accuracy = model.evaluate(test_images, test_labels)
+    train_accuracy = model.evaluate(training_images, training_labels)
+    print("Test Accuracy: ",test_accuracy)
+    print("Train Accuracy: ",train_accuracy)
 
 
 if __name__ == "__main__":
