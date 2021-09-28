@@ -8,6 +8,7 @@ The project estimates and measures carbon emissions from various Machine Learnin
 - [Installation](https://github.com/blessinvarkey/Energy-Consumption-In-Machine-Learning/blob/main/README.md#installation)
 - [IRIS-Dataset](https://github.com/blessinvarkey/Estimation-of-Energy-Consumption-In-Machine-Learning/blob/main/README.md#1-iris-dataset)
 - [ASD-Screening](https://github.com/blessinvarkey/Estimation-of-Energy-Consumption-In-Machine-Learning/blob/main/README.md#2-autism-spectrum-quotient-aq-10--q-chat)
+- [Fashion MNIST](https://github.com/blessinvarkey/EcoCoding#3-fashion-mnist)
 
 # About 
 
