@@ -45,6 +45,7 @@ This project requires **Python** and the following Python libraries installed:
 - [Pandas](http://pandas.pydata.org/)
 - [matplotlib](http://matplotlib.org/)
 - [scikit-learn](http://scikit-learn.org/stable/)
+- [tensorflow](https://www.tensorflow.org)
 
 You can install them using 
 
