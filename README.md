@@ -1,10 +1,10 @@
 # Energy Consumption in Machine Learning & Deep Learning Models 
 
-The project estimates and measures carbon emissions from various Machine Learning datasets to quantify and analyze their impact.
+The project estimates and measures carbon emissions from various Machine Learning and deep learning datasets to quantify and analyze their impact.
 
 <br/>
 
-- [About](#about-Green-Coding)
+- [About](https://github.com/blessinvarkey/EcoCoding#about)
 - [Installation](https://github.com/blessinvarkey/Energy-Consumption-In-Machine-Learning/blob/main/README.md#installation)
 - [IRIS-Dataset](https://github.com/blessinvarkey/Estimation-of-Energy-Consumption-In-Machine-Learning/blob/main/README.md#1-iris-dataset)
 - [ASD-Screening](https://github.com/blessinvarkey/Estimation-of-Energy-Consumption-In-Machine-Learning/blob/main/README.md#2-autism-spectrum-quotient-aq-10--q-chat)
