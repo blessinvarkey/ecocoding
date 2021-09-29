@@ -120,5 +120,4 @@ Fashion MNIST is a dataset comprised of 60,000 small square 28×28 pixel graysca
 
 
 
-[↑ Back to top](https://github.com/blessinvarkey/EcoCoding#energy-consumption-in-machine-learning--deep-learning-models
-g)
+[↑ Back to top](https://github.com/blessinvarkey/EcoCoding#energy-consumption-in-machine-learning--deep-learning-models)
