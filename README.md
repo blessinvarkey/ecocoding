@@ -19,7 +19,7 @@ The projects in the repo uses code carbon taking into account the computing infr
 
 
 | Algorithm | Dataset/ Link to code | Instance | Accuracy| Emissions Recorded in Joules* (average) |Emissions Recorded in kg* (average) |
-| ------------- |------------- | ------------- | ------------- | ------------- | ------------- |------------- | 
+| ------------- |------------- | ------------- | ------------- | ------------- | ------------- |
 |Logistic Regression | [IRIS Dataset](https://github.com/blessinvarkey/EcoCoding/blob/main/iris-dataset/train.py)|50 | 95.56%|11322593948.720951 joules|1.2598084791716727e-07 kg |
 |Support Vector Machines | [IRIS Dataset](https://github.com/blessinvarkey/EcoCoding/blob/main/iris-dataset/train.py)| 50 | 97.78%|11020140817.496267 joules|1.226156029830599e-07 kg|
 |K Nearest Neighbors | [IRIS Dataset](https://github.com/blessinvarkey/EcoCoding/blob/main/iris-dataset/train.py)| 50 | 93.33%|11183853335.19536 joules|1.2443715040300566e-07 kg |
