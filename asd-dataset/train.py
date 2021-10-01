@@ -4,7 +4,7 @@ import pandas as pd
 
 #Visualisation
 import matplotlib.pyplot as plt
-import missingno
+#import missingno
 import seaborn as sns
 
 #Model
@@ -54,9 +54,9 @@ def main():
     df = df.rename(columns = {"A1_Score":"A1","A2_Score":"A2", 'A3_Score':'A3', 'A4_Score':'A4', 'A5_Score':'A5', 'A6_Score':'A6', 'A7_Score':'A7', 'A8_Score':'A8', 'A9_Score':'A9', 'A10_Score':'A10', "jundice":"jaundice", "austim":"autism", "contry_of_res": "country", "Class/ASD":"asd_classification"})
 
     #Missing data
-    missingno.matrix(df, figsize =(30,10))
-    print(df.dtypes)
-    print(df.describe())
+ #   missingno.matrix(df, figsize =(30,10))
+ #   print(df.dtypes)
+ #   print(df.describe())
     print(df.age)
 
     fig = plt.figure(figsize=(26,8))

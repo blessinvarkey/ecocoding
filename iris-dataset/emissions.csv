@@ -1,2 +1,9 @@
 timestamp,experiment_id,project_name,duration,emissions,energy_consumed,country_name,country_iso_code,region,on_cloud,cloud_provider,cloud_region
 2021-09-04T23:39:58,3f72de02-5328-4356-9a8e-c27aad7f977a,codecarbon,4.8744282722473145,2.395008492812252e-07,2.872406289940083e-07,India,IND,national capital territory of delhi,N,,
+2021-10-01T16:17:44,fd66afc8-2470-496c-a474-7755518ef51e,codecarbon,3.8585121631622314,1.0290958799910258e-06,1.2342258858408858e-06,India,IND,national capital territory of delhi,N,,
+2021-10-01T16:17:55,4d386de7-8b01-40a9-928b-4b4778d2f053,codecarbon,1.9195787906646729,1.6625838296145782e-07,1.9939871879660813e-07,India,IND,national capital territory of delhi,N,,
+2021-10-01T16:54:11,de69a4df-3642-4057-bd25-3863748522ec,codecarbon,4.985802888870239,9.584904711039873e-08,1.149546678564764e-07,India,IND,national capital territory of delhi,N,,
+2021-10-01T16:54:55,139adaea-47c5-40a9-b9be-71ec22223852,codecarbon,3.0712690353393555,1.0894615713181159e-07,1.3066242894310596e-07,India,IND,national capital territory of delhi,N,,
+2021-10-01T16:55:22,42e560eb-ad81-4f3c-8858-8ac23c342ddb,codecarbon,4.9131269454956055,1.2598084791716727e-07,1.5109265000741005e-07,India,IND,national capital territory of delhi,N,,
+2021-10-01T16:56:57,2586d40f-dbda-4900-a684-cb54ca5fb5ef,codecarbon,2.9814281463623047,1.226156029830599e-07,1.4705660974077672e-07,India,IND,national capital territory of delhi,N,,
+2021-10-01T16:58:33,e9a98011-91cc-4890-a80f-c284a32ea53e,codecarbon,4.921020030975342,1.2443715040300566e-07,1.492412467815968e-07,India,IND,national capital territory of delhi,N,,

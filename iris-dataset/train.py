@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 #Model
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
+from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, roc_auc_score, roc_curve, classification_report
 from sklearn.preprocessing import LabelEncoder
 
@@ -97,6 +98,14 @@ def main():
     prediction=model.predict(test_features)
     score = model.score(test_features, test_labels)
     print('SVM Accuracy: {:.2f}%'.format(accuracy_score(test_labels, prediction) * 100))
+
+    #KNearestClassifier
+    model = KNeighborsClassifier()
+    model.fit(train_features, train_labels)
+    prediction=model.predict(test_features)
+    score = model.score(test_features, test_labels)
+    print('KNN Accuracy: {:.2f}%'.format(accuracy_score(test_labels, prediction) * 100))
+
 
 if __name__ == "__main__":
     tracker.start()
