@@ -19,8 +19,8 @@ def main():
     # Load MNIST dataset
     (input_train, training_labels), (input_test, test_labels) = mnist.load_data()
 
+    # Set input shape -->
     # https://www.machinecurve.com/index.php/question/valueerror-input-0-of-layer-sequential-is-incompatible-with-the-layer-expected-min_ndim4-found-ndim3-full-shape-received-250-28-28/
-    # Set input shape
     sample_shape = input_train[0].shape
     img_width, img_height = sample_shape[0], sample_shape[1]
     input_shape = (img_width, img_height, 1)
@@ -28,6 +28,7 @@ def main():
     # Reshape data 
     training_images = input_train.reshape(len(input_train), input_shape[0], input_shape[1], input_shape[2])
     test_images  = input_test.reshape(len(input_test), input_shape[0], input_shape[1], input_shape[2])
+    #-->
 
     #Image in index 0
     #plt.imshow(training_images[0])

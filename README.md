@@ -1,10 +1,11 @@
 # Energy Consumption in Machine Learning & Deep Learning Models 
 
-The project estimates and measures carbon emissions from various Machine Learning and deep learning datasets to quantify and analyze their impact.
+The exploratory project estimates and measures carbon emissions from various Machine Learning and deep learning datasets to quantify and analyze their impact.
 
 <br/>
 
 - [About](https://github.com/blessinvarkey/EcoCoding#about)
+- Emissions
 - [Installation](https://github.com/blessinvarkey/Energy-Consumption-In-Machine-Learning/blob/main/README.md#installation)
 - [IRIS-Dataset](https://github.com/blessinvarkey/Estimation-of-Energy-Consumption-In-Machine-Learning/blob/main/README.md#1-iris-dataset)
 - [ASD-Screening](https://github.com/blessinvarkey/Estimation-of-Energy-Consumption-In-Machine-Learning/blob/main/README.md#2-autism-spectrum-quotient-aq-10--q-chat)
@@ -13,6 +14,14 @@ The project estimates and measures carbon emissions from various Machine Learnin
 # About 
 
 The projects in the repo uses code carbon taking into account the computing infrastructure, location, usage and running time
+
+# Emissions
+
+| Dataset/ Link to code | Repository | Instance | Algorithm(s) used | Accuracy| Emissions Recorded* (average) |
+| ------------- |------------- | ------------- | ------------- | ------------- | ------------- | 
+| [IRIS Dataset](https://github.com/blessinvarkey/EcoCoding/blob/main/iris-dataset/train.py)  | UCI Machine Learning Repository | 50 | Logistic Regression, Support Vector Machines | 95.56% (LR), 97.78 (SVM)| 3.2894392230672367e-07kg |
+| [ASD Screening](https://github.com/blessinvarkey/EcoCoding/blob/main/asd-dataset/train.py)  | UCI Machine Learning Repository | 761 | Logistic Regression | 99.53% | 8.411635420125923e-07kg | 
+| [Fashion MNIST](https://github.com/blessinvarkey/EcoCoding/blob/main/fashion-mnist/train.py)  | zalandoresearch | 70,000 | Adam Optimization | | 52381696453822.83 joules | 
 
 
 
@@ -59,6 +68,7 @@ To run the code
 python train.py
 ```
 
+# About the Dataset 
 
 ## 1. Iris Dataset
 The IRIS data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. One class is linearly separable from the other 2; the latter are NOT linearly separable from each other. 
@@ -69,10 +79,6 @@ The details on the dataset can be found [here](https://archive.ics.uci.edu/ml/da
 ### Data Visualization: Sepal Length vs Width & Petal Length vs Width
 |![Screenshot](images/Figure_1.png)|![Screenshot](images/Figure_2.png)|![Screenshot](images/Figure_3.png)|
 | ------------- | ------------- |------------- |
-
-| Dataset | Repository | Instance | Algorithm(s) used | Accuracy| Emissions Recorded* (average) |
-| ------------- |------------- | ------------- | ------------- | ------------- | ------------- | 
-| IRIS Dataset  | UCI Machine Learning Repository | 50 | Logistic Regression, Support Vector Machines | 95.56% (LR), 97.78 (SVM)| 3.2894392230672367e-07kg |
 
 
 
@@ -91,9 +97,6 @@ The Dataset can be downloaded from the UCI Repository which is publicly availabl
 |![Screenshot](images/asd_dataset/Figure_10.png)|![Screenshot](images/asd_dataset/Figure_11.png)|
 | ------------- |------------- | 
 
-| Dataset | Repository | Instance| Algorithm(s) used |  Accuracy| Emissions Recorded* (average)|
-| ------------- |------------- | ------------- | ------------- | ------------- | ------------- | 
-| ASD Screening  | UCI Machine Learning Repository | 761 | Logistic Regression | 99.53% | 8.411635420125923e-07kg | 
 
 ## 3. Fashion MNIST
 Fashion MNIST is a dataset comprised of 60,000 small square 28×28 pixel grayscale images of items of 10 types of clothing, such as shoes, t-shirts, dresses, and more. The mapping of all 0-9 integers to class labels is listed below.
@@ -113,11 +116,5 @@ Fashion MNIST is a dataset comprised of 60,000 small square 28×28 pixel graysca
 |![Screenshot](images/f1.png)|![Screenshot](images/f2.png)|![Screenshot](images/f3.png)|
 |--|--|--|
  
-
-| Dataset | Repository | Instance| Algorithm(s) used |  Accuracy| Emissions Recorded* (average)|
-| ------------- |------------- | ------------- | ------------- | ------------- | ------------- | 
-| Fashion MNIST  | zalandoresearch | training set of 60,000 examples and a test set of 10,000 examples | Adam Optimization | | 52381696453822.83 joules | 
-
-
 
 [↑ Back to top](https://github.com/blessinvarkey/EcoCoding#energy-consumption-in-machine-learning--deep-learning-models)
