@@ -18,13 +18,13 @@ The projects in the repo uses code carbon taking into account the computing infr
 # Emissions
 
 
-| Algorithm | Dataset/ Link to code | Repository | Instance | Accuracy| Emissions Recorded in Joules* (average) |Emissions Recorded in kg* (average) |
+| Algorithm | Dataset/ Link to code | Instance | Accuracy| Emissions Recorded in Joules* (average) |Emissions Recorded in kg* (average) |
 | ------------- |------------- | ------------- | ------------- | ------------- | ------------- |------------- | 
-|Logistic Regression | [IRIS Dataset](https://github.com/blessinvarkey/EcoCoding/blob/main/iris-dataset/train.py)|UCI Machine Learning Repository | 50 | 95.56%|11322593948.720951 joules|1.2598084791716727e-07 kg |
-|Support Vector Machines | [IRIS Dataset](https://github.com/blessinvarkey/EcoCoding/blob/main/iris-dataset/train.py)|UCI Machine Learning Repository | 50 | 97.78%|11020140817.496267 joules|1.226156029830599e-07 kg|
-|K Nearest Neighbors | [IRIS Dataset](https://github.com/blessinvarkey/EcoCoding/blob/main/iris-dataset/train.py)|UCI Machine Learning Repository | 50 | 93.33%|11183853335.19536 joules|1.2443715040300566e-07 kg |
-| Logistic Regression | [ASD Screening](https://github.com/blessinvarkey/EcoCoding/blob/main/asd-dataset/train.py)  | UCI Machine Learning Repository | 761  | 99.53% | 23098647146.30177 joules | 2.570071104209542e-07 kg | 
-| Adam Optimization | [Fashion MNIST](https://github.com/blessinvarkey/EcoCoding/blob/main/fashion-mnist/train.py)  | zalandoresearch | 70,000 | |52381696453822.83 joules | |  
+|Logistic Regression | [IRIS Dataset](https://github.com/blessinvarkey/EcoCoding/blob/main/iris-dataset/train.py)|50 | 95.56%|11322593948.720951 joules|1.2598084791716727e-07 kg |
+|Support Vector Machines | [IRIS Dataset](https://github.com/blessinvarkey/EcoCoding/blob/main/iris-dataset/train.py)| 50 | 97.78%|11020140817.496267 joules|1.226156029830599e-07 kg|
+|K Nearest Neighbors | [IRIS Dataset](https://github.com/blessinvarkey/EcoCoding/blob/main/iris-dataset/train.py)| 50 | 93.33%|11183853335.19536 joules|1.2443715040300566e-07 kg |
+| Logistic Regression | [ASD Screening](https://github.com/blessinvarkey/EcoCoding/blob/main/asd-dataset/train.py)  | 761  | 99.53% | 23098647146.30177 joules | 2.570071104209542e-07 kg | 
+| Adam Optimization | [Fashion MNIST](https://github.com/blessinvarkey/EcoCoding/blob/main/fashion-mnist/train.py)  | 70,000 | |52381696453822.83 joules | |  
 
 # Installation
 
