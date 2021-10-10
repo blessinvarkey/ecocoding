@@ -3,7 +3,6 @@
 The exploratory project estimates and measures carbon emissions from various Machine Learning and deep learning datasets to quantify and analyze their impact.
 
 <br/>
-
 - [About](https://github.com/blessinvarkey/EcoCoding#about)
 - [Emissions](https://github.com/blessinvarkey/EcoCoding#emissions)
 - [Installation](https://github.com/blessinvarkey/Energy-Consumption-In-Machine-Learning/blob/main/README.md#installation)

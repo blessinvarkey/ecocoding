@@ -53,11 +53,14 @@ def main():
     tf.keras.layers.Dense(128, activation=tf.nn.relu),
     tf.keras.layers.Dense(10, activation=tf.nn.softmax)])
 
+    # compile
     model.compile(optimizer = 'adam', loss='sparse_categorical_crossentropy')
     model.summary()
+    # model training:
     model.fit(training_images, training_labels, epochs = 5)
+    # model testing:
     test_loss = model.evaluate(test_images, test_labels)
-    print("Test Loss: ",test_loss)
+    print("Test Loss: ", test_loss)
 
 if __name__ == "__main__":
     tracker.start()
