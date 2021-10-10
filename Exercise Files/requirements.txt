@@ -1,0 +1,9 @@
+numpy
+pip>=9.0.0
+pandas
+keras==2.0.6
+h5py
+scikit-learn
+scipy
+tensorflow>=1.0.0
+google-api-python-client
