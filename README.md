@@ -12,7 +12,7 @@ The exploratory project estimates and measures carbon emissions from various Mac
 
 # About 
 
-The projects in the repo uses code carbon taking into account the computing infrastructure, location, usage and running time
+The projects in the repo uses code carbon taking into account the computing infrastructure, location, usage and running time.
 
 # Emissions
 
