@@ -2,9 +2,43 @@
 
 The exploratory project estimates and measures carbon emissions from various Machine Learning and deep learning datasets to quantify and analyze their impact.
 
-# About 
+<br/>
+- [About](https://github.com/blessinvarkey/EcoCoding#about)
+- [Emissions](https://github.com/blessinvarkey/EcoCoding#emissions)
+- [Installation](https://github.com/blessinvarkey/Energy-Consumption-In-Machine-Learning/blob/main/README.md#installation)
+- [IRIS-Dataset](https://github.com/blessinvarkey/Estimation-of-Energy-Consumption-In-Machine-Learning/blob/main/README.md#1-iris-dataset)
+- [ASD-Screening](https://github.com/blessinvarkey/Estimation-of-Energy-Consumption-In-Machine-Learning/blob/main/README.md#2-autism-spectrum-quotient-aq-10--q-chat)
+- [Fashion MNIST](https://github.com/blessinvarkey/EcoCoding#3-fashion-mnist)
+
+# About the project
+
+- A 200g ebook requires about 15kg of raw materials (e.g. rare earth metal) 300L water, and 170 kg of CO2. Ecologically more beneficial than paperback only if you read between 30-60 books
+- Energy consumption of ICT
+
+__Email:__ 
+- 1 MB Email =≈ 20g of CO2
+- 20 emails on 365 days = car travelling 1000 km
+
+__Web search:__
+- ≈3.5 Wh, ≈ 1g CO2 equivalent
+- 2-3 web searches per day =≈ 10 kg of CO2 per year
+
+Per capita consumption: equivalent to ≈ 1,400 km by car 
+
+__ICT global demand__
+- 1% to 10%
+- 2% of global emissions, equal to aviation industry from fuel
+
+__Forecast:__
+- Data centres could consume 28% of total energy consumption (est.: 11%, best 4%)
+- “In worst-case scenario, ICT electricity usage could contribute upto 23% of the globally released greenhouse gas emissions in 2030”
+
+
+![](https://theshiftproject.org/wp-content/uploads/2019/07/Graphique_EN_Energy-consumption-of-digital-technologies.png)
 
 The projects in the repo uses code carbon taking into account the computing infrastructure, location, usage and running time.
+
+
 
 # Emissions
 
