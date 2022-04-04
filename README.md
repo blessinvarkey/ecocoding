@@ -36,13 +36,7 @@ __Forecast:__
 
 ![](https://theshiftproject.org/wp-content/uploads/2019/07/Graphique_EN_Energy-consumption-of-digital-technologies.png)
 
-### Definitions
-Watt(W): unit to describe transfer of energy 
-Joule(J): 
-
-
-
-The projects in the repo uses code carbon taking into account the computing infrastructure, location, usage and running time
+The projects in the repo uses code carbon taking into account the computing infrastructure, location, usage and running time.
 
 
 
