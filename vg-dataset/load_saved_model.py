@@ -1,10 +1,10 @@
 import pandas as pd
 from keras.models import load_model
 
-model =
+#model =
 
 X = pd.read_csv("proposed_new_product.csv").values
-prediction = model.predict(X)
+#prediction = model.predict(X)
 
 # Grab just the first element of the first prediction (since we only have one)
 prediction = prediction[0][0]
