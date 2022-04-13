@@ -11,8 +11,10 @@ The exploratory project estimates and measures carbon emissions from various Mac
 - [ASD-Screening](https://github.com/blessinvarkey/Estimation-of-Energy-Consumption-In-Machine-Learning/blob/main/README.md#2-autism-spectrum-quotient-aq-10--q-chat)
 - [Fashion MNIST](https://github.com/blessinvarkey/EcoCoding#3-fashion-mnist)
 
-# About the project
+## Definitions
+- 1 Wh is 3600 Joules
 
+## Why do we need Sustainable Software? 
 - A 200g ebook requires about 15kg of raw materials (e.g. rare earth metal) 300L water, and 170 kg of CO2. Ecologically more beneficial than paperback only if you read between 30-60 books
 - Energy consumption of ICT
 
@@ -37,12 +39,33 @@ __Forecast:__
 
 ![](https://theshiftproject.org/wp-content/uploads/2019/07/Graphique_EN_Energy-consumption-of-digital-technologies.png)
 
-The projects in the repo uses code carbon taking into account the computing infrastructure, location, usage and running time.
+Product development/software development teams
+
+__Organizational__: Product development teams and methods
+Examples: _Agile Development_, _DevOps_
+
+__Technological__: Technological Advancements
+Examples: _cloud infrastructure_, _mobile devices_
+
+__Market__: 
+Examples: _hyperscale cloud providers_, _consumer demands_
+
+# GREENSOFT Model
+- A wholistic reference model for producing and consuming sustainable software
+- "Green and Sustainable Software Engineering is the art of defining and developing software products in a way, so that the negative and positive impacts on sustainable development that result from the software product over its whole life cycle are continously assessed, documented, and used for further optimization of the software product."[[3](https://www.semanticscholar.org/paper/The-GREENSOFT-Model%3A-A-reference-model-for-green-Naumann-Hirsch-Dick/d52109cceee36af7731cdcd6a69c1972e0905a4b)]
+
+Lifecycle phases in the "Greensoft- Green and Sustainable Software Model"?
+- Development
+- Usage
+- End of Life
 
 
+![](https://ars.els-cdn.com/content/image/1-s2.0-S2210537911000473-gr1.jpg)
+
+
+The following projects in the repo uses code carbon taking into account the computing infrastructure, location, usage and running time.
 
 # Emissions
-
 
 | Algorithm | Dataset/ Link to code | Instance | Accuracy| Emissions Recorded in Joules* (average) |Emissions Recorded in kg* (average) |
 | ------------- |------------- | ------------- | ------------- | ------------- | ------------- |
@@ -55,7 +78,6 @@ The projects in the repo uses code carbon taking into account the computing infr
 # Installation
 
 Download the project along with a code editor.
-
 Use the terminal to navigate to the source folder. 
 
 Create a virtual environment using `conda` for easier management of dependencies and packages. You can also follow the instructions on the [official conda website](https://docs.conda.io/projects/conda/en/latest/user-guide/install/)
